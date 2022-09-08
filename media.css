@@ -1,0 +1,281 @@
+@media screen and (max-width:600px)
+{
+   .layer-content h1 , .layer-content h2
+   {
+       font-size: 40px;
+       font-weight: 100;
+   }
+
+   .layer-content p
+   {
+       font-size: 20px;
+   }
+
+   .layer-content button
+   {
+border-radius: 1.5rem;
+width: 50%;
+   }
+
+   .navbar
+   {
+       flex-direction: column;
+       align-items: flex-start;
+       font-size: 20px;
+       position: absolute;
+       padding: 5px;
+   }
+   .navbar ul
+   {
+       flex-direction: column;
+   }
+   .navbar li
+   {
+padding:4px;
+   }
+.section2 .header h2
+{
+    width: 100%;
+    font-size:70px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.section2 .header p
+{
+    font-size: 20px;
+    top: 43%;
+}
+.section2 .header p::after
+{
+    left:22%;
+    top: 100%;
+    width: 50%;
+}
+.section2 .parent
+{
+  display: block;
+}
+.section2 .parent .child1 ,.section2 .parent .child2 
+{
+    width: 100%;
+    line-height: 1.5;
+    font-size: 20px;
+    padding: 0px;
+
+}
+.section2 .parent .child2 
+{
+    padding: 30px 0px;
+}
+.section2 .child1
+{
+text-align: center;
+}
+.section2 .parent .child2 button
+{
+    width: 60%;
+}
+.section2 .child1 h3
+{
+    font-size: 30px;
+}
+.section2 .child3   
+{
+    width: 100%;
+    flex-direction:column ;
+    align-items: center;
+}
+.section2 .child3 .grand
+{
+    border-bottom: 1px solid #eaeaea ;
+    border-right: 0px;
+}
+.section3 .header h2
+{
+    width: 100%;
+    font-size:70px;
+    padding-top: 15px;
+}
+.section3 .header p
+{
+    font-size: 20px;
+    top:25%;
+    left:37%;
+}
+.section3 .header p::after
+{
+    left:22%;
+    top: 100%;
+    width: 50%;
+}
+.section4 .parent 
+{
+    width: 100%;
+    flex-direction: column;
+    padding: 0px;
+}
+.section4 .parent .child
+{
+    font-size: 20px;
+}
+
+.section5 .header h2
+{
+font-size: 80px;
+
+}
+.section5 .header p
+{
+    font-size: 30px;
+  
+}
+
+.section5 .header p 
+{
+    position: absolute;
+    top: 22%;
+}
+.section5 .header p::after
+{
+    position: absolute;
+    left: 30%;
+    width: 50%;
+}
+.section6 .parent 
+{
+    flex-direction: column;
+    padding: 0px;
+    
+}
+.section6 h3
+{
+    font-size: 25px;
+}
+.section6 .date
+{
+    width: 30%;
+}
+.my-skills
+{
+    flex-wrap: wrap;
+
+}
+.my-skills .parent 
+{
+    width: 100%;
+    padding:10px;
+}
+
+
+.section9 .parent .content
+{
+    width: 100%;
+}
+.section8 .header h2
+{
+    font-size: 50px;
+    opacity: 1;
+}
+.section8
+{
+    padding: 0px;
+}
+.section8 .header p
+{
+    font-size: 20px;
+    top: 15%;
+}
+.section8 .header p::after
+{
+    left: 30%;
+    width: 45%;
+}
+.section9 .parent .child
+{
+    font-size: 20px;
+}
+
+.section9 .parent .content
+{
+    line-height: 1.5;
+}
+.section9 .parent 
+{
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+}
+.section11 ul
+{
+    width: 100%;
+}
+.section11 ul a 
+{
+    padding: 5px;
+}
+.section10 .header h2
+{
+font-size: 55px;
+}
+.section10 .header p
+{
+    font-size: 25px;
+}
+.section10 .header p::after
+{
+    width: 60px;
+    left: 28%;
+}
+.section12 .photos
+{
+    width: 100%;
+    flex-direction: column;
+}
+.section13 .header h2
+{
+font-size: 70px;
+opacity: 0.6;
+}
+.section13 .header p
+{
+    font-size: 25px;
+}
+.section13 .header p::after
+{
+    left: 18%;
+}
+.section14
+{
+    width: 100%;
+    display: block  ;
+}
+.section14 .child1 , .section14 .child2 , .section14 .child2 input ,.section14 .child2 textarea  , .section14 .child3 .btn1
+
+{
+    width: 100%;
+    padding: 20px;
+}
+.section14 .child2 h3
+{
+    padding:20px 0px;
+}
+.footer
+{
+    padding: 0px;
+}
+.footer .parent 
+{
+    width: 100%;
+    display: block;
+text-align: center;}
+.footer .ch1  , .footer .ch2
+{
+    width: 100%;
+    padding: 20px;
+}
+.footer .parent .ch2:hover
+{
+    color:#20c997;
+}
