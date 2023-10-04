@@ -1,33 +1,70 @@
 
 <html>
-    <head><link rel="stylesheet" href="style.css"></head>
-    <head><link rel="stylesheet" href="media.css"></head>
+  <head>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/animate.css">
+  <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+    </head>
 
-  </html>
+
   <body>
-    <div class="navbar">
-      <h3>simon</h3>
-      <ul>
-        <li><a class="home" href="#">Home</a></li>
-        <li><a  href="#">About </a></li>
-        <li><a  href="#">What I Do </a></li>
-        <li><a  href="#">Resume</a></li>
-        <li><a  href="#">Portfolio</a></li>
-        <li><a  href="#">Client</a></li>
-        <li><a  href="#">Contact</a></li>
-      </ul>
-    </div>
-    <div class="section1">
-      <div class="layer">
-        <div class="layer-content">
-          <h2>welcom</h2>
-          <h1>i'm simon freelanser</h1>
-          <p>based in Los Angeles, California.</p>
-          <button> Hire me </button>
+    <nav class="navbar navbar-expand-md fixed-top navbar-dark p-2 w-100 " id="main-nav">
+      <div class="container-fluid  ">
+        <h1 class=" text-white p-3 ">Simon</h1> 
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto  p-2 ">
+            <li class="nav-item">
+              <a class="nav-link active " aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#About">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#Services">Services</a>
+            </li> 
+            
+          </li>
+           <li class="nav-item ">
+            <a class="nav-link" href="#Resume">Resume</a>
+          </li> 
+          <li class="nav-item ">
+            <a class="nav-link" href="#Portfolio">Portfolio</a>
+          </li> 
+          <li class="nav-item ">
+           <a class="nav-link" href="#Client">Client</a>
+         </li>
+         <li class="nav-item ">
+           <a class="nav-link" href="#Contact">Contact</a>
+         </li>      
+        </ul>
         </div>
       </div>
-    </div>
-    <div class="section2">
+    </nav>  
+    <section class="section1 " id="home" >
+      <div class="layer ">
+        <div class="layer-content p-2  container d-flex justify-content-center align-items-center">
+          <div>
+            <p class=" wow wow pulse welcome" data-wow-iteration="999999999999999999999" >Welcome</p> 
+          <h2 class="wow wow pulse" data-wow-iteration="999999999999999999999" >i'm simon<br>
+          based in Los Angeles, California</h2>
+          <p class=" wow wow pulse element info" data-wow-iteration="999999999999999999999"></p>
+          <div>
+            <button> Hire me </button>
+
+          </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  
+    
+    <div class="section2" id="About">
       <div class="header">
       <h2>ABOUT ME </h2>
       <p>Know Me More</p>
@@ -69,13 +106,13 @@
        </div>
       </div>
     </div>
-    <div class="section3">
+    <div class="section3" id="Services">
       <div class="header">
         <h2> SERVICES</h2>
         <p>What I Do?</p>
       </div>
     </div>
-    <div class="section4">
+    <div class="section4" >
       <div class="parent">
         <div class="content">
           <div class="child">
@@ -107,13 +144,13 @@
         </div>
       </div>
     </div>
-    <div class="section5">
+    <div class="section5" >
       <div class="header">
         <h2>SUMARY</h2>
         <p>Resume</p>
       </div>
     </div>
-    <div class="section6">
+    <div class="section6" id="Resume">
       <div class="parent">
       <div class="content2">
       <h3> My Education</h3>  
@@ -199,7 +236,7 @@
   <div class="btn">
     <div class="buttom"><button>Download Cv</button></div>
   </div>
-   <div class="section8">
+   <div class="section8" id="Client">
      <div class="header">
        <h2>TESTIMONIAL</h2>
        <p>Client Speak</p>
@@ -209,20 +246,20 @@
     <div class="parent">
       <div class=" content">
         <div class="child">
-          <img src="10.jpg" alt="">
+          <img src="./images/10.jpg" alt="">
           <h4>Dennis Jaques</h4>
         </div>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni illo provident deserunt ea, quod maxime impedit itaque similique qui officiis error quis atque, omnis voluptatum perferendis eos culpa dolores asperiores?</p>    </div>
          <div class="content">
            <div class="child">
-            <img src="09.jpg" alt="">
+            <img src="./images/09.jpg" alt="">
             <h4>Dennis Jaques</h4>
            </div>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni illo provident deserunt ea, quod maxime impedit itaque similique qui officiis error quis atque, omnis voluptatum perferendis eos culpa dolores asperiores?</p>
     </div>
     </div>
    </div>
-   <div class="section10">
+   <div class="section10" id="Portfolio">
      <div class="header">
         <h2>PROTOFOLIO </h2>
         <p>My Work</p>
@@ -240,7 +277,7 @@
        <div class="photos">
         <div class="first-column">
           <div class="member">
-            <img src="01.jpg" alt=""> 
+            <img src="./images/01.jpg" alt=""> 
             <div class="member-caption">
               <div class="member-content">
                 <h4>project title</h4>
@@ -250,7 +287,7 @@
           </div>
           
           <div class="member">
-            <img src="04.jpg" alt=""> 
+            <img src="./images/04.jpg" alt=""> 
             <div class="member-caption">
               <div class="member-content">
                 <h4>project title</h4>
@@ -262,7 +299,7 @@
         <div class="second-colmun">
 
           <div class="member">
-            <img src="02.jpg" alt=""> 
+            <img src="./images/02.jpg" alt=""> 
             <div class="member-caption">
               <div class="member-content">
                 <h4>project title</h4>
@@ -271,7 +308,7 @@
             </div>
           </div>
           <div class="member">
-            <img src="07.jpg" alt=""> 
+            <img src="./images/07.jpg" alt=""> 
             <div class="member-caption">
               <div class="member-content">
                 <h4>project title</h4>
@@ -282,7 +319,7 @@
         </div>
        <div class="therd-colmun">
         <div class="member">
-          <img src="03.jpg" alt=""> 
+          <img src="./images/03.jpg" alt=""> 
           <div class="member-caption">
             <div class="member-content">
               <h4>project title</h4>
@@ -291,7 +328,7 @@
           </div>
         </div>
         <div class="member">
-          <img src="05.jpg" alt=""> 
+          <img src="./images/05.jpg" alt=""> 
           <div class="member-caption">
             <div class="member-content">
               <h4>project title</h4>
@@ -300,7 +337,7 @@
           </div>
         </div>
         <div class="member">
-          <img src="06.jpg" alt=""> 
+          <img src="./images/06.jpg" alt=""> 
           <div class="member-caption">
             <div class="member-content">
               <h4>project title</h4>
@@ -311,7 +348,7 @@
        </div>
       </div>
      </div>
-     <div class="section13">
+     <div class="section13" id="Contact">
        <div class="header">
        <h2>CONTACT</h2>
        <p>Get in Touch</p>
@@ -341,9 +378,16 @@
         </div>
      </div>
      <div class="footer">
+
        <div class="parent">
        <div class="ch1">Copyright Â© 2021 <span> Simone.</span> All Rights Reserved.</div>
        <div class="ch2"> Terms <span class="pip" >|</span> Policy Disclaimer</div>
      </div>
     </div>
+    <script src="./js/wow.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="./js/jquery-3.6.0.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="./js/index.js"></script>
   </body>
+  </html>
